@@ -19,6 +19,4 @@ public class LignCommandFournisseur extends AbstractEntity{
     private Article article;
     private BigDecimal quantite;
     private BigDecimal prixUnitaire;
-
-
 }
