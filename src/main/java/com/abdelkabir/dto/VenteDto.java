@@ -14,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 public class VenteDto {
     private Integer id;
+
     @NotNull(message = "nom shouldn't be null")
     @NotBlank(message = "nom shouldn't be empty")
     private String code;
